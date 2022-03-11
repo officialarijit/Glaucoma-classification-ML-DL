@@ -16,6 +16,10 @@
 -   **Sklearn** : will be used to get PCA for dimensionality reduction.
 
     `pip install scikit-learn`
+
+-   **Mlxtend** : will be used to implement the Majority Voting Ensemble approach. 
+     
+     `pip isntall mlxtend`
     
 ### Run The Program
 - Run the program by executing the below code.
@@ -28,3 +32,8 @@
 
 	`100_extracted_features.csv`.
 
+### Classification
+- Once the features are extracted then run the following code.
+	`run Glaucoma-Ensemble-Approach.ipynb` 
+	
+	-- In this file `Multi-Layer Perceptron (MLP)`, `SVM` and `Random Forest (RF)` classifiers are available. Also, the `Majority Voting Ensemble` approach is available. 
